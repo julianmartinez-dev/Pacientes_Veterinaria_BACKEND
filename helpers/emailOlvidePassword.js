@@ -16,7 +16,7 @@ const emailOlvidePassword = async (datos) => {
     from: 'APV - Administrador de Pacientes de Veterinaria',
     to: email,
     subject: 'Reestable tu contraseña',
-    text: 'Reestable tu contraseña',
+    text: 'Reestablece tu contraseña',
     html: `
             <p>Hola ${nombre}, has solicitado reestablecer tu contraseña.</p>
             <p>Sigue el siguiente enlace para generar una nueva contraseña:
